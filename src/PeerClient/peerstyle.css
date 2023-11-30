@@ -1,0 +1,20 @@
+html {height:100%;}
+body {height:100%; margin:0;font-family: Verdana, sans-serif;}
+#idHeader {vertical-align:middle;text-align: center;position:relative; height:100px; left:0; right:0; border:solid 1px coral;background-color: #f44336;}
+#idHeader h1 {position:relative; top:6px}
+#idContent {position:relative; height:100%;background-color: coral;}
+#idLeftMenu {position:relative;float: left;width:15%; height:100%;background-color: coral;}
+#idRightSide{position:relative;float: left; width:75%;height:100%;background-color: white;border:solid 1px coral;}
+#idMovieList {position:relative;width:100%; background-color: coral;}
+#idAvailable {;padding-left: 10px;}
+.item {background-color: white; padding-left: 20px; cursor: pointer;padding-top: 3px;padding-bottom: 3px;}
+.item:hover {
+    background-color: #FFDEAD;
+}
+
+#idVideoDiv{position:relative;width:100%; background-color: white;padding-top: 70px;text-align:center}
+#idURL{position:relative;width:640px; top: 30px; height: 30px; background-color: white ;text-align:center;margin: 0 auto;border:solid 1px coral;}
+
+#idRefreshButton{padding-top: 30px;text-align:center;padding-bottom: 30px;}
+button {font-size: 16px;background: white;border:solid 2px white;color: black;padding: 5px 10px;cursor: pointer;border-radius: 8px;transition-duration: 0.4s;}
+button:hover {background: #f44336;color: white;}

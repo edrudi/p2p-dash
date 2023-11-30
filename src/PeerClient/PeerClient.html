@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="peerstyle.css">
+
+    <!-- Shaka Player compiled library: -->
+    <script src="shaka-player.compiled.js"></script>
+    <!-- Your application source: -->
+    <script src="clientconfig.js"></script>
+    <script src="peerscript.js"></script>
+  </head>
+  <body>
+    <div id="idHeader">
+        <h1 style="color: white;">ELISA DRUDI - Multimedia Services and Applications Project </h1>
+    </div>
+    <div id="idContent">
+        <div id="idLeftMenu">
+            <div id="idAvailable"><h3>List of Movies :</h3></div>
+            <div id="idMovieList">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <div id="idRefreshButton"><button type="button" onClick="refreshCallback()">Refresh Movie List</button></div>
+        </div>
+        <div id="idRightSide">
+            <div style="display: none;" id="idVideoDiv">
+                <video id="video"
+                    width="640"
+                    poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
+                    controls autoplay></video>
+            </div>
+            <div style="text-align: center;">
+                <div style="display: none;" id="idURL"></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
